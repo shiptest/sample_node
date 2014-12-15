@@ -16,11 +16,13 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   
+  
 before_install:
   - node --version
   - npm install -g grunt-cli
   - echo $HEAD_BRANCH
   - echo $BASE_BRANCH 
+
 
 archive: true
 
