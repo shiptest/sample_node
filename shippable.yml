@@ -19,15 +19,14 @@ before_script:
 before_install:
   - node --version
   - npm install -g grunt-cli
+  - echo $HEAD_BRANCH
+  - echo $BASE_BRANCH 
 
 archive: true
-
 
 # Running the tests with grunt
 script:
   - grunt
-
-
 
 # Tell istanbul to generate a coverage report
 after_script:
