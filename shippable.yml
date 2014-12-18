@@ -23,7 +23,6 @@ before_install:
   - node --version
   - npm install -g grunt-cli
 
-
 archive: true
 # Running the tests with grunt
 script:
