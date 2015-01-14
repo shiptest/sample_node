@@ -43,4 +43,4 @@ after_script:
 
 notifications:
  email: false
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
