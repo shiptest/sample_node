@@ -26,6 +26,7 @@ before_script:
 before_install:
   - node --version
   - npm install -g grunt-cli
+  - source ~/.rvm/scripts/rvm && rvm use 1.9.3
 
 archive: true
 # Running the tests with grunt
